@@ -22,10 +22,23 @@
      <script>
         function test(){
 confetti({
-  particleCount: 100,
+  particleCount: 30,
   spread: 70,
   origin: { y: 0.6 },
-});    };</script>
+  shapes: ["emoji"],
+    shapeOptions: {
+      emoji: {
+        value: ["😸", "😺"],}}
+});
+confetti({
+    particleCount: 20,
+  spread: 70,
+  origin: { y: 0.6 },
+    shapes: ["circle", "square"],
+    colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"],
+  });
+        };
+        </script>
 
     <title>Family Announcment</title>
 </head>
