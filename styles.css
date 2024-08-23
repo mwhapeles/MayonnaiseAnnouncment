@@ -3,8 +3,11 @@
 body {
     display: flex;
     align-items: center;
-    height: 100vh;
-    margin-top: 3%;
+    height: 90vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 0;
+    
 }
 
 
@@ -38,13 +41,10 @@ body {
     display: flex;
     align-content:center;
     justify-content: center;
-    flex-wrap:wrap;
-    flex-direction:column;
-    line-break:loose;
     
     position: absolute;
-    height: 90%;
-    width: 80%;
+    height: 80%;
+    width: 90%;
    
     /* hide back face   */
     backface-visibility: hidden;
@@ -64,22 +64,23 @@ body {
     align-items: center;
     text-align:center;
     background-image: url(Assets/OGSize.png);
-    min-width: 100%;
-    min-height: 100%;
-    background-size: cover;
+      background-size: cover;
     background: #5792CF;
     border-radius: 5% 5% 5% 5%;
 filter: drop-shadow( 0em .5em .3em #676f6f );
-}
+min-width: 100%;
+    min-height: 100%;}
 
 
 .back {
     background-image: url(Assets/OGSizeBack.png);
     background-size: cover;
     background:#dcf8ff;
-    /* flip it default   */
+    min-width: 100%;
+    min-height: 100%;  /* flip it default   */
     transform: rotateY(180deg);
     border-radius: 5% 5% 5% 5%;
+  
  
 }
 
@@ -93,24 +94,26 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
 
 
 /* Media Query for Mobile */
-@media only screen and (max-width: 800px) and (min-width:600px) { 
+@media only screen and (max-width: 700px) and (min-width:50px) { 
     
-     /*Diagnostic Styling. Delete When Done. */
+     /*Diagnostic Styling. Delete When Done. 
     body:before {
          background: yellow;
          content: "Mobile Size";
-    }
+    }*/
 
     body {
         display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-between;
+        align-items: center;
+        height: 90vh;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-bottom: 0;
 
     }
 
     .scene {
-        width: 65%;
+        width: 100%;
         height: 100%;
         /* space between card-scenes */
         
@@ -136,8 +139,8 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
     /* face */
     .face {
         position: absolute;
-        height: 80%;
-        width: 90%;
+        height: 100%;
+        width: 100%;
         /* hide back face */  
         backface-visibility: hidden;}
     
@@ -148,6 +151,9 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
         background-image: url(Assets/phoneMedia.png);
         background-size: cover;
+        height: 541px;
+        width: 302px;
+
     }
  
 
@@ -160,6 +166,8 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
         background-size: cover;
+        height: 541px;
+        width: 302px;
     }
     
     /* flip card
