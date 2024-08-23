@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     height: 100vh;
-    margin-top: 8%;
+    margin-top: 3%;
 }
 
 
@@ -13,7 +13,7 @@ body {
     width: 100%;
     height: 100%;
     /* space between card-scenes */
-    margin: 16px;
+   
   /* set perspective   */
     perspective: 1600px;
     
@@ -50,14 +50,7 @@ body {
     backface-visibility: hidden;
 }
 
-img {
-    display:flex;
-    margin:auto;
-    align-content: center;
-    width: 100%;
-    height: 100%;
 
-}
 
 
 
@@ -70,6 +63,10 @@ img {
     justify-content:center;
     align-items: center;
     text-align:center;
+    background-image: url(Assets/OGSize.png);
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
     background: #5792CF;
     border-radius: 5% 5% 5% 5%;
 filter: drop-shadow( 0em .5em .3em #676f6f );
@@ -77,8 +74,8 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
 
 
 .back {
-    
-  
+    background-image: url(Assets/OGSizeBack.png);
+    background-size: cover;
     background:#dcf8ff;
     /* flip it default   */
     transform: rotateY(180deg);
@@ -96,13 +93,13 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
 
 
 /* Media Query for Mobile */
-@media only screen and (max-width: 8200px), (min-width:500px) { 
+@media only screen and (max-width: 800px) and (min-width:600px) { 
     
-    /* Diagnostic Styling. Delete When Done. 
+     /*Diagnostic Styling. Delete When Done. */
     body:before {
          background: yellow;
          content: "Mobile Size";
-    }*/
+    }
 
     body {
         display: flex;
@@ -131,7 +128,7 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
         cursor: grab;
         transition: transform 1s;
     
-        /* preserve child 3d   */
+        /* preserve child 3d*/   
         transform-style: preserve-3d;
         border-radius: 50% 90% 90% 90%;
     }
@@ -141,55 +138,28 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
         position: absolute;
         height: 80%;
         width: 90%;
-       
-        /* hide back face   */
-        backface-visibility: hidden;
-    }
-    
-    img {
-        display:flex;
-        margin:auto;
-        align-content: center;
-        max-width: 100%;
-        max-height: 100%;
-    
-    }
-.title {
-
-    max-width: 50%;
-    max-height: 20%;
-    font-family: 'Outfit-Regular';
-    color: #ECF7DD;
-}
-
-
-#pro{
-    display:block;
-    max-width: 50%;
-    max-height: 50%;
-}
+        /* hide back face */  
+        backface-visibility: hidden;}
     
     .front {
         text-align:center;
         background: #5792CF;
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
+        background-image: url(Assets/phoneMedia.png);
+        background-size: cover;
     }
-    
-    .description {
-        font-family:'Satoshi-Light';
-        line-height: 70%;
-        max-width:80%;
-    min-height:50%;
-    
-    }
+ 
 
     .back {
         background:#dcf8ff;
+        background-image: url(Assets/backofPhoneMedia.png);
+        background-size: cover;
         /* flip it default   */
         transform: rotateY(180deg);
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
+        background-size: cover;
     }
     
     /* flip card
@@ -203,34 +173,34 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
 
 
 /* Media Query for Tablet */
-@media only screen and (max-width: 600px) and (min-width: 800px){ 
+ /*@media only screen and (max-width: 600px) and (min-width: 800px){ 
     
     .scene {
-        width: 50%;
-        height: 60%;
+        width: 100%;
+        height: 100%;
         /* space between card-scenes */
-        margin: 16px;
+     /*    margin: 16px;
       /* set perspective   */
-        perspective: 1600px;
-        
+     /*    perspective: 1600px;
+    /*     
     }
     
-    /* card */
-    .card {
+    /* /* card */
+    /*.card {
         display: flex;
         align-content:center;
         justify-content: center;
-        width: 50%;
-        height: 40%;
+        width: 90%;
+        height: 80%;
         position: relative;
         cursor: grab;
         transition: transform 1s;
         /* preserve child 3d   */
-        transform-style: preserve-3d;
+   /*      transform-style: preserve-3d;
     }
     
     /* face */
-    .face {
+    /* .face {
         display: flex;
         align-content:center;
         justify-content: center;
@@ -239,44 +209,37 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
         line-break:loose;
         
         position: absolute;
-        width: 70%;
-        height: 50%;
-        /* hide back face   */
-        backface-visibility: hidden;
-    }
-    
-    img {
-        display:flex;
-        margin:auto;
-        align-content: center;
         width: 100%;
         height: 100%;
-    
+    /*     /* hide back face   */
+    /*     backface-visibility: hidden;
     }
     
+   
     
     
     
     
-    
-    
+    /* 
     .front {
         display:flex;
         justify-content:center;
         align-items: center;
         text-align:center;
-        background: #5792CF;
+        background-image: url(Assets/phoneMedia.png);
+        background-size: cover;
         border-radius: 5% 5% 5% 5%;
     filter: drop-shadow( 0em .5em .3em #676f6f );
     }
     
     
-    .back {
+    /* .back {
         
-      
+        background-image: url(Assets/backofPhoneMedia.png);
+        background-size: cover;
         background:#dcf8ff;
         /* flip it default   */
-        transform: rotateY(180deg);
+    /*     transform: rotateY(180deg);
         border-radius: 5% 5% 5% 5%;
      
     }
@@ -284,8 +247,8 @@ filter: drop-shadow( 0em .5em .3em #676f6f );
     /* flip card
       * toggle with JS
       */
-    .flipped {
+  /*  .flipped {
         transform: rotateY(180deg);
     }
 }
-    
+*/
