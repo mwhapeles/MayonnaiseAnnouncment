@@ -16,4 +16,11 @@ document.querySelectorAll('.card').forEach( item => {
   
 })
 
+const catAudio = document.getElementById('catAudio');
+        const   
+ audio = document.getElementById('catAudio');
 
+        playButton.addEventListener('click', () => {
+            audio.play();   
+
+        });
