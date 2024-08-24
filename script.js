@@ -4,23 +4,23 @@
 // import the library
 
 // get all the card
-document.querySelectorAll('.card').forEach( item => {
+//document.querySelectorAll('.card').forEach( item => {
     
     // for each item i.e. card, do this
-    item.addEventListener('click', event => {
+  //  item.addEventListener('click', event => {
 
       // toggle class on card
-      item.classList.toggle('flipped');
-      test();
-    })
+  //    item.classList.toggle('flipped');
+  //    test();
+  //  })
   
-})
+//})
 
-const catAudio = document.getElementById('catAudio');
-        const   
- audio = document.getElementById('catAudio');
+const card = document.querySelector('.card');
+const audio = document.querySelector('#catAudio');
 
-        playButton.addEventListener('click', () => {
-            audio.play();   
-
-        });
+card.addEventListener('click', () => {
+    card.classList.toggle('flipped');
+    audio.play();
+    test();
+});
