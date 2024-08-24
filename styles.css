@@ -1,9 +1,9 @@
 
-/* layout */
+/* layout*/ 
 body {
     display: flex;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     margin-top: 5%;
     margin-left: 10%;
     margin-bottom: 0;
@@ -12,13 +12,13 @@ body {
 
 
 /* scene */
-.scene {
-    width: 100%;
-    height: 100%;
+ .scene {
+    width: 90%;
+    height: 90%;
     /* space between card-scenes */
    
   /* set perspective   */
-    perspective: 1600px;
+     perspective: 1600px;
     
 }
 
@@ -27,8 +27,8 @@ body {
     display: flex;
     align-content:center;
     justify-content: center;
-    width: 90%;
-    height: 80%;
+    width: 40%;
+    height: 90%;
     position: relative;
     cursor: grab;
     transition: transform 1s;
@@ -47,11 +47,8 @@ body {
     width: 90%;
    
     /* hide back face   */
-    backface-visibility: hidden;
+   backface-visibility: hidden;
 }
-
-
-
 
 
 
@@ -72,21 +69,21 @@ min-width: 100%;
     min-height: 100%;}
 
 
-.back {
+ .back {
     background-image: url(Assets/OGSizeBack.png);
     background-size: cover;
     background:#dcf8ff;
     min-width: 100%;
     min-height: 100%;  /* flip it default   */
-    transform: rotateY(180deg);
+   transform: rotateY(180deg);
     border-radius: 5% 5% 5% 5%;
   
  
 }
 
 /* flip card
-  * toggle with JS
-  */
+  * toggle with JS*/
+  
 .flipped {
     transform: rotateY(180deg);
 }
@@ -94,7 +91,7 @@ min-width: 100%;
 
 
 /* Media Query for Mobile */
-@media only screen and (max-width: 700px) and (min-width:50px) { 
+@media only screen and (max-width: 800px) and (min-width:50px) { 
     
      /*Diagnostic Styling. Delete When Done. 
     body:before {
@@ -105,9 +102,10 @@ min-width: 100%;
     body {
         display: flex;
         align-items: center;
-        height: 90vh;
+        height: 100vh;
         margin-top: 5%;
-        margin-left: 10%;
+       margin-left: 5%;
+       margin-right:5% ;
         margin-bottom: 0;
 
     }
@@ -119,15 +117,15 @@ min-width: 100%;
         
     
         /* set perspective   */
-        perspective: 600px;
+        perspective: 1500px;
     }
     
     /* card */
     .card {
         
         height: 100%;
+        width:100%;
         position: relative;
-        padding:.5em;
         cursor: grab;
         transition: transform 1s;
     
@@ -151,8 +149,10 @@ min-width: 100%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
         background-image: url(Assets/phoneMedia.png);
         background-size: cover;
-        height: 541px;
-        width: 302px;
+        background-repeat: no-repeat;
+        height: 100%;
+        width:100%;
+        
 
     }
  
@@ -166,18 +166,25 @@ min-width: 100%;
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
         background-size: cover;
-        height: 541px;
-        width: 302px;
+        background-repeat: no-repeat;
+        height: 100%;
+        width:95%;
+     
     }
     
+    img{
+
+        height: 100%;
+        width: 100%;
+    }
     /* flip card
       * toggle with JS
       */
     .flipped {
         transform: rotateY(180deg);
     }
-}
 
+}
 
 
 /* Media Query for Tablet */
