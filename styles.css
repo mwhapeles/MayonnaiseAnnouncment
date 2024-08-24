@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: rgb(249, 244, 238);
     display: flex;
 
     align-items: center;
@@ -62,45 +62,20 @@ img {
 }
 
 
-#pro{
-    max-width: 50%;
-    max-height: 50%;
-}
-
-
-
-.title{
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    text-align:center;
-   max-width: 60%;
-    font-family: 'Outfit-Regular';
-    color: #ECF7DD;
-}
-
 .front {
     display:flex;
     justify-content:center;
     align-items: center;
     text-align:center;
-    background: #5792CF;
+   
+   
     border-radius: 5% 5% 5% 5%;
 filter: drop-shadow( 0em .5em .3em #0e3b3d );
-}
-
-.description {
-    max-width:80%;
-    min-height:50%;
-    font-family:'Satoshi-Light';
-    line-break: loose;
 
 }
 
 .back {
     
-  
-    background:#dcf8ff;
     /* flip it default   */
     transform: rotateY(180deg);
     border-radius: 5% 5% 5% 5%;
@@ -130,23 +105,13 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
         flex-direction: column;
         align-content: center;
         justify-content: space-between;
-
+        height: 100vh;
     }
 
-    p { 
-        font-size: small;
-        min-height: 40%;
-        max-height: 60%;
-
-        }
-
-    h2{
-        font-size: large;
-
-    }
+   
     .scene {
-        width: 65%;
-        height: 100%;
+        width: 90%;
+        height: 80%;
         /* space between card-scenes */
         
     
@@ -182,42 +147,23 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
         display:flex;
         margin:auto;
         align-content: center;
-        max-width: 40%;
-        max-height: 40%;
+        max-width: 100%;
+        max-height: 100%;
     
     }
-.title {
-
-    max-width: 50%;
-    max-height: 20%;
-    font-family: 'Outfit-Regular';
-    color: #ECF7DD;
-}
 
 
-#pro{
-    display:block;
-    max-width: 50%;
-    max-height: 50%;
-}
-    
+ 
     .front {
         text-align:center;
-        background: #5792CF;
+       
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
     }
     
-    .description {
-        font-family:'Satoshi-Light';
-        line-height: 70%;
-        max-width:80%;
-    min-height:50%;
-    
-    }
 
     .back {
-        background:#dcf8ff;
+       
         /* flip it default   */
         transform: rotateY(180deg);
         border-radius: 5% 5% 5% 5%;
@@ -248,18 +194,9 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
         flex-direction: column;
     }
 
-    p { 
-        font-size: small;
-
-        }
-
-    h2{
-        font-size: large;
-
-    }
     .scene {
-        width: 50%;
-        height: 100%;
+        width: 90%;
+        height: 80%;
         /* space between card-scenes */
         
     
@@ -295,42 +232,22 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
         display:flex;
         margin:auto;
         align-content: center;
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 100%;
+        max-height: 100%;
     
     }
-.title {
 
-    max-width: 60%;
-    max-height: 20%;
-    font-family: 'Outfit-Regular';
-    color: #ECF7DD;
-}
-
-
-#pro{
-    display:block;
-    max-width: 50%;
-    max-height: 50%;
-}
     
     .front {
         text-align:center;
-        background: #5792CF;
+       
         border-radius: 5% 5% 5% 5%;
         filter: drop-shadow(0rem .25rem .25rem #0e3b3d);
     }
-    
-    .description {
-        font-family:'Satoshi-Light';
-        line-height: 70%;
-        max-width:80%;
-    min-height:50%;
-    
-    }
+  
 
     .back {
-        background:#dcf8ff;
+      
         /* flip it default   */
         transform: rotateY(180deg);
         border-radius: 5% 5% 5% 5%;
