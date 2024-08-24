@@ -93,11 +93,11 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     }*/
 
     body {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-between;
+       
+        margin:auto;
+        justify-content: center;
         height: 100vh;
+        width: 98vw;
     }
 
    
@@ -113,11 +113,11 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     
     /* card */
     .card {
-        
+        margin:auto;
+        justify-content: center;
         height: 100%;
-        position: relative;
-        padding:.5em;
-        cursor: grab;
+        position: relative;      
+        cursor: pointer;
         transition: transform 1s;
     
         /* preserve child 3d   */
@@ -149,8 +149,8 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
        background-image:url(Assets/phoneMedia.png);
        background-size: contain;
        background-repeat: no-repeat;
-       filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
        
+filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
     }
     
 
@@ -168,6 +168,8 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
       * toggle with JS
       */
     .flipped {
+        margin:auto;
+        justify-content: center;
         transform: rotateY(180deg);
     }
 }
@@ -184,8 +186,7 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     }*/
 
     body {
-        display: flex;
-        flex-direction: column;
+        margin:0px;
     }
 
     .scene {
@@ -204,7 +205,7 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
         height: 100%;
         position: relative;
     
-        cursor: grab;
+        cursor: grabbing;
         transition: transform 1s;
     
         /* preserve child 3d   */
