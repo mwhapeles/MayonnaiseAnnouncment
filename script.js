@@ -22,5 +22,7 @@ const audio = document.querySelector('#catAudio');
 card.addEventListener('click', () => {
     card.classList.toggle('flipped');
     audio.play();
+ 
+// test(); is connected to the confetti function    
     test();
 });
