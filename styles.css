@@ -102,10 +102,10 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
 
    
     .scene {
-        width: 90%;
+        width: 79%;
         height: 80%;
         /* space between card-scenes */
-        
+       
     
         /* set perspective   */
         perspective: 600px;
@@ -113,7 +113,8 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     
     /* card */
     .card {
-        margin:auto;
+     
+       
         justify-content: center;
         height: 100%;
         position: relative;      
@@ -127,7 +128,7 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     /* face */
     .face {
         position: absolute;
-        height: 100%;
+        height: 90%;
         width: 90%;
       
         /* hide back face   */
@@ -168,6 +169,7 @@ filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
       * toggle with JS
       */
     .flipped {
+        
         margin:auto;
         justify-content: center;
         transform: rotateY(180deg);
