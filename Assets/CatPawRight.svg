@@ -1,0 +1,14 @@
+<svg width="55" height="34" viewBox="0 0 55 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<ellipse cx="35" cy="17" rx="12" ry="12" transform="rotate(90 35 17)" fill="#948782"/>
+<ellipse cx="41" cy="5" rx="5" ry="6" transform="rotate(90 41 5)" fill="#948782"/>
+<ellipse cx="49" cy="12" rx="5" ry="6" transform="rotate(90 49 12)" fill="#948782"/>
+<ellipse cx="49" cy="22" rx="5" ry="6" transform="rotate(90 49 22)" fill="#948782"/>
+<ellipse cx="41" cy="29" rx="5" ry="6" transform="rotate(90 41 29)" fill="#948782"/>
+<path d="M32.7143 9.72726L32.7143 25.2727L7.88311 25.2727C4.01711 25.2727 0.883109 22.1387 0.883109 18.2727L0.883109 16.7273C0.883109 12.8613 4.01712 9.72726 7.88311 9.72726L32.7143 9.72726Z" fill="#948782"/>
+<ellipse cx="41.5" cy="5" rx="2" ry="3.5" transform="rotate(90 41.5 5)" fill="#FAD2D2"/>
+<ellipse cx="50" cy="12" rx="2" ry="3" transform="rotate(90 50 12)" fill="#FAD2D2"/>
+<ellipse cx="38.5" cy="17" rx="5" ry="4.5" transform="rotate(90 38.5 17)" fill="#FAD2D2"/>
+<ellipse cx="50" cy="22" rx="2" ry="3" transform="rotate(90 50 22)" fill="#FAD2D2"/>
+<ellipse cx="41.5" cy="30" rx="2" ry="3.5" transform="rotate(90 41.5 30)" fill="#FAD2D2"/>
+<ellipse cx="34.5" cy="17" rx="8" ry="4.5" transform="rotate(90 34.5 17)" fill="#FAD2D2"/>
+</svg>

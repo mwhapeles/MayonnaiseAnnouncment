@@ -81,14 +81,6 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     transform: rotateY(180deg);
 }
 
-button{
-    height: 50px;
-    width: 100px;
-    background-color: #e38170;
-    color:white;
-    border-radius: 5% 5% 5% 5%;
-    border-style: none;
-}
 
 
 /* Media Query for Mobile */
@@ -245,12 +237,10 @@ filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
 
     
     .front {
-        background-image:url(Assets/phoneMedia.png);
+        background-image:url(Assets/GenderRevealFrontPhone.png);
         background-size: contain;
         background-repeat: no-repeat;
         text-align:center;
-       
-   
         filter: drop-shadow(0rem .25rem .25rem #0e3b3d);
     }
   
