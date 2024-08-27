@@ -103,9 +103,9 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
     }*/
 
     body {
-       
-        margin:auto;
-        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         height: 100vh;
         width: 98vw;
     }
@@ -199,6 +199,9 @@ filter: drop-shadow(0rem .1rem .25rem #0e3b3d);
 
     body {
         margin:0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
     .scene {
