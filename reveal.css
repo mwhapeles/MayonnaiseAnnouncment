@@ -147,7 +147,7 @@ filter: drop-shadow( 0em .5em .3em #0e3b3d );
  
     .front {
         text-align:center;
-       background-image:url(Assets/phoneMedia.png);
+       background-image:url(Assets/GenderRevealFrontPhone.png);
        background-size: contain;
        background-repeat: no-repeat;
        
