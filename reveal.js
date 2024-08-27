@@ -25,4 +25,7 @@ card.addEventListener('click', () => {
  
 // test(); is connected to the confetti function    
     test();
+
+//pop-up message explaining what the vet vist revealed
+    alert('Maisie is about a year and a half! Very healthy and is such a sweetheart...but is Maisie a boy or a girl...click to reveal!');
 });
